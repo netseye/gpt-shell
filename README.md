@@ -1,5 +1,8 @@
 # gpt in the command line
 
+![Build status](https://github.com/netseye/gpt-shell/actions/workflows/haskell.yml/badge.svg)
+
+
 A simple command-line application based on gpt-3.5-turbo-16k, designed to address some common problems encountered in daily development. Users can obtain answers directly from the command line without having to open a browser. There is no session retention mechanism, so each query is treated as a new session. This application can be integrated with existing function through piping, such as using `say` to play answers in voice format, or `bat` to display answers in Markdown format on the shell.
 
 ## Installation
